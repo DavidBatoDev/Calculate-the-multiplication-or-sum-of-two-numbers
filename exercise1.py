@@ -7,3 +7,8 @@ def calculate_product_or_sum(num1, num2):
     else:
         # else return their sum
         return num1 + num2
+    
+test1 = calculate_product_or_sum(20, 30)
+print(f'The result is {test1}') # Output: The result is 600
+test2 = calculate_product_or_sum(30, 40)
+print(f'The result is {test2}') # Output: The result is 70
